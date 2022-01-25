@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 23px;
+    margin-top: 64px ;
+}
+
+.answer {
+    font-size: 15px;
+}
+
+.alphabetical-ol {
+    list-style-type: lower-alpha;
+}
+
+li {
+    list-style-position: inside;
+    white-space:nowrap;
+}
+
+li {
+    padding-left:1em;
+}
+
+.alphabetical-ol {
+    padding-left:2em;
+}
+
